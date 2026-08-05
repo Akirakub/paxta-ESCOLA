@@ -1,0 +1,66 @@
+{
+	"game": {
+		"dinheiro": 166,
+		"secret_menu_unlocked": false,
+		"unlocked_mechanics": {
+			"cart": false,
+			"change": false,
+			"discount": false,
+			"if": false,
+			"sensor": false,
+			"stock": false,
+			"sum": true
+		},
+		"upgrades": [
+			"premium_1"
+		]
+	},
+	"interpreter": {
+		"script_text": "int main(){\n    float a = input();\n\tfloat b = input();\n\tfloat c;\n\t\tc = a+b;\n\t\tsend(c);\n\t\t}",
+		"script_workspace": {
+			"active_script_id": "script_001",
+			"main_script_id": "script_001",
+			"scripts": [
+				{
+					"created_at": 1785930376.766,
+					"id": "script_001",
+					"source": "int main(){\n    float a = input();\n\tfloat b = input();\n\tfloat c;\n\t\tc = a+b;\n\t\tsend(c);\n\t\t}",
+					"title": "Principal",
+					"updated_at": 1785931426.602
+				},
+				{
+					"created_at": 1785930599.831,
+					"id": "script_002",
+					"source": "int main(){\n\n}\n",
+					"title": "Novo Script",
+					"updated_at": 1785930600.648
+				}
+			],
+			"stock_script_id": "",
+			"version": 2
+		}
+	},
+	"meta": {
+		"last_saved_unix": 1785931441.608,
+		"save_version": 2
+	},
+	"shop": {
+		"comprados": {
+			"premium_1": true
+		}
+	},
+	"stock": {
+		"quantities": {
+			"Arroz": 0,
+			"Chocolate": 0,
+			"Farinha": 0,
+			"Feijao": 0,
+			"Morango": 0,
+			"Uva": 0
+		}
+	},
+	"tutorial": {
+		"completed": true,
+		"step": 9
+	}
+}
